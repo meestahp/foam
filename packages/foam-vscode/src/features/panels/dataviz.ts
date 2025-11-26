@@ -157,6 +157,7 @@ async function createGraphPanel(
             type: 'didUpdateNodeFontSizeMultiplier',
             payload: fontSizeMultiplier,
           });
+
           updateGraph(panel, foam);
           break;
         }
